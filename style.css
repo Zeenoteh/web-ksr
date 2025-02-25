@@ -953,6 +953,18 @@ footer{
     border-top: 2px solid #e8e1e1;
 }
 
+.footer-link {
+    color: #007bff;  /* Blue color like typical links */
+    text-decoration: ;  /* Underline to indicate it's clickable */
+    font-weight: bold;  /* Make it stand out */
+    transition: color 0.3s ease-in-out;
+}
+
+.footer-link:hover {
+    color: #ff1111;  /* Changes color on hover */
+}
+
+
 
 #progress{
     position: fixed;
